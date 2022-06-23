@@ -1,5 +1,5 @@
 {
-  "name": "axiom",
+  "name": "axiom-logger",
   "version": "1.0.0",
   "description": "Axiom client and logger",
   "author": "Andrew Barba <barba@hey.com>",

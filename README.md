@@ -1,6 +1,6 @@
-# axiom-node
+# axiom-logger-node
 
-Axiom Node.js library written in TypeScript
+Axiom Node.js logger written in TypeScript
 
 ## Usage
 
