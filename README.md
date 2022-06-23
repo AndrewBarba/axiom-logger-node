@@ -5,7 +5,7 @@ Axiom Node.js logger written in TypeScript
 ## Usage
 
 ```typescript
-import { AxiomLogger } from 'axiom'
+import { AxiomLogger } from 'axiom-logger'
 
 const logger = new AxiomLogger({ 
   apiKey: 'xxx-xxx-xxx',
