@@ -1,0 +1,24 @@
+{
+  "name": "axiom",
+  "version": "1.0.0",
+  "description": "Axiom client and logger",
+  "author": "Andrew Barba <barba@hey.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "fastq": "^1.13.0",
+    "undici": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "esbuild": "^0.14.47",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc -emitDeclarationOnly && ts-node -T ./esbuild.ts"
+  }
+}
