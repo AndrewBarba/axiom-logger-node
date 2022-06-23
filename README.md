@@ -7,7 +7,10 @@ Axiom Node.js library written in TypeScript
 ```typescript
 import { AxiomLogger } from 'axiom'
 
-const logger = new AxiomLogger({ apiKey: 'xxx-xxx-xxx' })
+const logger = new AxiomLogger({ 
+  apiKey: 'xxx-xxx-xxx',
+  dataset: 'my-dataset-prod'
+})
 
 logger.write({ message: 'Hello, world' })
 
